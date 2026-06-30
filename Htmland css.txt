@@ -1,0 +1,428 @@
+                                      HTML AND  CSS
+Html they say as tag and Css they say as property basic html tag 20 and css property 20
+HTML - Hypertext Markup Language
+Use:
+To view the Structuring  in web pages (say as tag)
+
+Html basic syntax:
+<html>
+
+
+<head>
+<title>         // if we want to change title in webpage we use title tag 
+Html practice
+</title>
+
+               // what we wand to import given head tag also have Conference file
+<meta>          // we give abstract in meta tag google only read meta in tag to view the web page
+
+<link rel=  >   // we can write inanother note pad and include here in link tag
+
+</head>
+<body>          // The element contains all the contents of an HTML document, such as headings,
+ paragraphs, images, hyperlinks, tables, lists,
+
+<h1>Main Heading </h1> automitacly show bolde
+<h1></h1> start tag and close tag  
+Main Heading ----is a content 
+<h1> Main Heading </h1>  --Element
+
+<p></p> not show blode 
+
+<a herf="https:/www.w3school.com">Vist w3school </a> 
+In side we give is call attribute:
+             herf="https:/www.w3school.com"
+			 
+Remember the difference between :
+      Class and ID: A Class name can be used by multiple HTML elements, 
+while an ID name must only be used by one HTML element within the page.			 
+	
+ src: Means source where we want to take a file
+</body>
+
+</html>
+
+Two type of URL
+*)Absolut URL
+ Give file path detaily .It will accqurate 
+ex:src="https://www.w3schools.com/images/img_girl.jpg".
+
+
+*)Relative URL
+ we keep near our file .It will short
+ Example: src="/images/img_girl.jpg".
+ Mostly use relative URL
+ 
+Heading tag:
+<h1> ...to </h6>
+HTML fromatting:
+Unifromly follw the text font
+next heading fallow same heading font to another heading
+
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+html comment:
+<!-- iam here --> also for multiple line
+
+
+Div tag:
+<div></div> div tag is container
+div is one of block level Element
+<div class="box">
+<h1>Main Heading </h1>
+<p> iam shunmugasundarm </p>
+</div>
+<div class="box">
+<h1>Main Heading </h1>
+<p> iam shunmugasundarm </p>
+</div>
+*class is multiple use
+*id is single use
+
+ HTML Block& inline  level comment
+ Block level element: Will occupy full take width(one line) left to right 
+ 
+ inlineElement: it will take only the structur of content 
+ Section tag:
+ <section><section>  element provides more semantic syntax than the div element.
+ <div> tag:
+ The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements - 
+ which is then styled with CSS or manipulated with JavaScript.
+ The <div> tag is easily styled by using the class or id attribute. 
+ Any sort of content can be put inside the <div> tag!
+ 
+ ----------
+ <details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+ What is an unordered list?
+An unordered list typically is a bulleted list of items.
+<ul></ul>
+
+What is called hyperlink?
+In a website, a hyperlink (or link) is an item like a word or button that points to another location
+
+<textarea>
+<form action="/action_page.php">
+  <p><label for="w3review">Review of W3Schools:</label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+  <br>
+  <input type="submit" value="Submit">
+</for>
+
+input tag:
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text"> (default value)
+<input type="time">
+<input type="url">
+<input type="week">
+ 
+ ========================================================================================================================
+                                      CSS
+									=======
+
+css property:							
+																	
+1 width
+2 height
+3 max-width
+4 margin
+5 padding
+6 box-sizing
+7 font-family
+8 font-weight
+9 font-size
+10 font-style
+11 text-align
+12 line-height
+13 letter-spacing
+14 user-select
+15 color
+16 background-color
+17 border
+18 border-radius
+19 box-shadow
+20 object-fit
+21 transition
+22 cursor
+23 display
+24 opacity
+25 overflow
+
+Main properyts:
+
+Background
+Border
+Margin
+Padding
+Height/width									
+
+Background:
+
+The CSS background properties are used to add background effects for elements.
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background (shorthand property)
+---------------------------------------------------------
+Border
+
+*Give plan colour will change text colour gine background means change background colour
+*To chane font size: font-size:20px(or)rem;
+Ex: background-color: green;
+Example
+----------------------------------------------------------------
+Demonstration of the different border styles:
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+----------------------------------------------------------------
+
+Margin
+*Margine are use to create space around outside of any defined border.
+Ex:
+  margin: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  
+Padding:
+*padding are use to create space inside of a define border
+Ex:
+  padding: 25px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;								
+-------------------------------
+we need font:take from: google fonts  web sit
+we need image: pexels web sit
+
+Using Bootstrap : first load setup file--> bootstrap starer template	  
+	==================================================
+
+What is CSS:
+*Styling Language
+*Use for presentation
+*creativity Focused	
+
+CSS Syntax:                         
+selector                       h1{color:blue;}
+{
+property1:value;
+property2:value;         
+}
+ Css contains many different type of selector
+ Many slector: Element,class,id
+ ===============================================================
+ Element:
+ Any HTM element use as the selector and style difined for that selector will aply to all html element of that type
+ Ex: 
+ h1,div,heder,span,btn
+ {
+ color:blue;
+ }
+ ===============================================================
+ Class:
+ The most common and usefull selector is the class slector let slect html element based on their class attribute
+ *All html element can have attribute assigned to them such as href and anchor tag
+ Ex1:
+ <h1 class="big-heder">
+ title
+ </h1>
+ Ex2:
+ <a href="index.html">
+ Home
+ </a>
+ *A class is just an attribute that all html element and is used with css to distinguish elements for specific styling
+ *Aclass attribute can also have multiple different classes in the same attribute as long as there seperate by space
+ Ex1:
+ <div class="red sqare">
+ content
+ </div>
+ ------
+ .class-name 
+ {
+ property:value;
+ }
+ Named as class slector this period tell css that whatever follows is a class name and not a html element name classes are most common selector because they are amazing for creating resable components for example if you have sit with three different types of button all sharing smae basic styling but have different colour can use based class to define all the style shared between all button
+ ----------------------------------------------
+ EX:
+ .btn 
+ {
+ padding:10px;
+ color:white;
+ }
+ 
+.btn-1 {background-color:"green"}
+.btn-2 {background-color:"blue"}
+.btn-3 {background-color:"purple"}
+ --------------------------------------------
+ <button class="btn btn-1"> button 1
+ </button>
+  <button class="btn btn-2"> button 2
+ </button>
+  <button class="btn btn-3"> button 3
+ </button>
+===============================================================
+ ID:
+ Id is html attribute but an element have one id when it can have multiple class id is also unique across entire webpage bit html does not actually enforce this
+  <h1 id="main-header">
+  title
+  </h1>
+ =====
+ css:
+ #id
+ {
+ property:value:
+ }
+ 
+=============================
+font-family:
+What are the 5 font families?
+In CSS (and in typography in general) there are five basic types, or families, of fonts: serif, sans serif, 
+cursive, fantasy, and monospace.
+-----------------------------------------
+Postition: 
+There are five different position values:
+static
+relative
+fixed
+absolute
+sticky
+---------------------------------------
+The float Property:
+The float property can have one of the following values:
+
+left - The element floats to the left of its container
+right - The element floats to the right of its container
+none - The element does not float (will be displayed just where it occurs in the text). This is default
+inherit - The element inherits the float value of its parent
+------------------
+Text-decoration Property:
+
+The text-decoration property specifies the decoration added to text, and is a shorthand property for:
+
+text-decoration-line (required)
+text-decoration-color
+text-decoration-style
+text-decoration-thickness
+-----------------------------------
+Different Betwenn px and %:
+
+
+--------------------------------------
+What means offset in CSS?
+The offset CSS shorthand property sets all the properties required for animating an element along a defined path. Note: 
+Early versions of the spec called this property motion
+----------------------------------------------------
+CSS Transitions:
+Mouse over the element below to see a CSS transition effect:
+
+In this chapter you will learn about the following properties:
+
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+
+------------------------------------------------------
+Transition on Hover
+CSS transitions allows you to change property values smoothly (from one value to another), over a given duration.
+
+Add a transition effect (opacity and background color) to a button on hover:
+
+
+Relative positioning:
+---------------------
+
+When an element is given position: relative, it remains in its normal flow, 
+but can be shifted from its original position by using the top, bottom, left, and right properties.
+
+Absolute positioning:
+When an element is given position: absolute, it is taken out of its normal flow and positioned relative to its nearest positioned ancestor.
+========
+background-size: cover:
+ background-size: cover; means the image will fill the element while maintaining its aspect ratio, while background-size: 100%;
+ will just make the image fill 100% width of the element.
+----------
+margine:
+margin: 10px 5px 15px 20px; top margin is 10px. right margin is 5px. bottom margin is 15px. left margin is 20px.
+padding:
+(top, right, bottom, and left).
+-------
+The px belongs to the absolute category of length units whereas the em and
+ %(percentage) refers to the relative class of sizing units
+
+------------------------
+question ?
+1 rem would be equivalent to 16 pixels.
+
+felxvs grid:
+flexbox was designed for layout in one dimension - either a row or a column. 
+Grid was designed for two-dimensional layout - rows, and columns at the same time.
+
+dif btwn ?
+The document's default font size is 16 pixels, so 1.5rems x 16px is the equivalent of 24 pixels.
+
+felx-warp:warp
+used to specify whether flex items are forced into a single line or wrapped onto multiple lines
+-----------------
+EM: Relative to the parent element
+
+REM: Relative to the root element (HTML tag)
+
+%: Relative to the parent element
+
+VW: Relative to the viewport’s width
+
+VH: Relative to the viewport’s height
+
+elastic mail password 
+89BA453B9393A2774E425BEB7762A276085F
+Back up code
+117161
+
+
