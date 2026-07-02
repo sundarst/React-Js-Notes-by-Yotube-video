@@ -898,6 +898,28 @@ Redux:
 Has four step like(Action, Reducers, Store, View)
 Action - what to do
 Reducers - how to do will .pass two parameter
+
+Easy Definition 
+	Redux is a state management library that stores application data in a single central store, allowing any React component to access and update that data
+without passing props through multiple components.	
+
+With Redux
+			Redux Store
+         /     |      \
+Component A  Component B  Component C
+
+Without Redux (A → B → C)
+if Component A has data that Component C needs:
+ Component A (State)
+      │
+   props
+      ▼
+Component B
+      │
+   props
+      ▼
+Component C
+Here, Component B doesn't need the data, but it still has to pass it to Component C. This is called prop drilling.
 ===================================================================================================================================
                               React+Bootstrap
 							 ------------------
